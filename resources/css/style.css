@@ -5,9 +5,23 @@ html {
     font-family: 'Verdana';
 }
 
-header {
+header h1 {
     text-align: center;
     text-justify: distribute;
     font-size: 50px;
 }
 
+/* main sections of site, 'featured', 'guide', and 'comming_soon' */
+
+section.featured h5 {
+    text-align: center;
+    font-size: 25px;
+}
+
+section.featured h5 a {
+    color: aquamarine;
+}
+
+section.featured figure {
+    
+}
