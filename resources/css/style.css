@@ -2,7 +2,7 @@ html {
     background-color: black;
     color: white;
     font-size: 18px;
-    font-family: 'Verdana';
+    font-family: 'Verdana', sans-serif;
 }
 
 header h1 {
@@ -12,7 +12,7 @@ header h1 {
 }
 
 /* main sections of site, 'featured', 'guide', and 'comming_soon' */
-
+/* featured */
 section.featured h5 {
     text-align: center;
     font-size: 25px;
@@ -20,8 +20,54 @@ section.featured h5 {
 
 section.featured h5 a {
     color: aquamarine;
+    font-size: 16px;
+    font-weight: 750;
 }
 
 section.featured figure {
-    
+    text-align: center;
+}
+
+/* guide */
+section.guide h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 42px;
+}
+
+section.guide h3 {
+    text-align: center;
+    color: gray;
+}
+
+section.guide figure {
+    text-align: center;
+}
+
+/* cooming soon */
+section.coming_soon figure {
+    text-align: center;
+}
+
+section.coming_soon h1 {
+    text-align: center;
+    font-weight: 300;
+    font-size: 42px;
+    font-weight: 750;
+}
+
+section.coming_soon h5 {
+    text-align: center;
+}
+
+section.coming_soon a {
+    color: aquamarine;
+    font-size: 16px;
+}
+
+/* footer */
+footer {
+    text-align: right;
+    color: gray;
+    font-weight: 750;
 }
